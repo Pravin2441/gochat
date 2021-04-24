@@ -1,0 +1,35 @@
+.profile-pic {
+  border-radius: 20px;
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+
+.profile-input {
+  width: 80%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center !important;
+  font-family: sans-serif !important;
+  font-size: 20px;
+}
+.MuiOutlinedInput-input {
+  margin-left: 1rem !important;
+}
+
+.profile-section {
+  margin-top: -40px;
+}
+.main-profile {
+  background: linear-gradient(45deg, #fe6b8b 30%, #ff8e53 90%);
+  height: 100vh;
+}
+.profileClose {
+  margin: 5px;
+  cursor: pointer;
+}
+.profile-name p {
+  color: black;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 5px 0px;
+}

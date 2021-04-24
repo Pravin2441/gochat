@@ -1,0 +1,83 @@
+.chat-list,
+.chat-list-btn {
+  display: flex;
+  align-items: center;
+}
+.home-profile {
+  width: 30%;
+  display: flex;
+  background-color: #0575e6;
+}
+@media only screen and (max-width: 600px) {
+  .home-profile {
+    width: 100%;
+    display: flex;
+    background-color: #0575e6;
+  }
+}
+.new-chat {
+  width: 9rem;
+  padding-top: 0.5rem;
+  padding-left: 1.5rem;
+  line-height: 2rem;
+  background-color: #0575e6;
+  margin-top: 3px;
+  margin-bottom: 8px;
+  display: flex;
+  border-radius: 20px;
+}
+.new-chat p {
+  color: #ffffff;
+  font-size: 18px;
+}
+.MuiSvgIcon-colorPrimary {
+  color: #ffffff !important;
+  cursor: pointer;
+}
+.search-field {
+  width: 25.9rem !important;
+  height: 3.6rem !important;
+}
+.grid-item {
+  margin: 0px !important;
+}
+.grid-item {
+  padding: 0px !important;
+}
+.input-field {
+  width: 30%;
+  background-color: #d3cce3;
+}
+@media only screen and (max-width: 600px) {
+  .input-field {
+    width: 100%;
+    background-color: #d3cce3;
+  }
+}
+.chat-list-btn {
+  justify-content: center;
+}
+
+.chat-list-img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+.overflow {
+  overflow-y: auto;
+  padding: 10px;
+  background-color: #d3cce3;
+  width: 30%;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  .overflow {
+    height: 320px;
+    width: 100%;
+  }
+}
